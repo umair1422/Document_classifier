@@ -1,3 +1,10 @@
+# Document Classifier
+
+![Tests](https://github.com/umair_1422/Document_classifier/actions/workflows/ci.yml/badge.svg)
+
+## Project Description
+This project is a deep learning-based document classifier built with PyTorch that automatically categorizes document images into different types. It uses computer vision and convolutional neural networks to analyze document layouts and visual patterns, enabling efficient organization and retrieval of digital documents. The system includes data preprocessing, model training, and evaluation pipelines to handle various document formats with high accuracy.
+
 # Document Classification Project
 
 Complete end-to-end system for generating synthetic document datasets, training lightweight deep learning models, and deploying them as a web API.
