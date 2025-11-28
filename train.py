@@ -14,7 +14,7 @@ import json
 from pathlib import Path
 from datetime import datetime
 from typing import Dict, Tuple, List
-
+import seaborn
 import numpy as np
 import torch
 import torch.nn as nn
@@ -26,8 +26,6 @@ from torchvision.datasets import ImageFolder
 import timm
 from sklearn.metrics import accuracy_score, f1_score, confusion_matrix, classification_report
 import matplotlib.pyplot as plt
-import seaborn as sns
-
 import mlflow
 import mlflow.pytorch
 
