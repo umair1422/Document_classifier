@@ -1,0 +1,29 @@
+# Virtual environments
+document_env/
+venv/
+.venv/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.Python
+
+# Data and model artifacts
+outputs/
+mlruns/
+mlflow.db
+*.pth
+*.pt
+*.h5
+
+# Logs
+*.log
+mlflow_ui_*.log
+mlflow_server_*.log
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
