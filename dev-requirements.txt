@@ -2,5 +2,6 @@ pytest
 Pillow
 matplotlib
 scikit-learn
+timm
 seaborn>=0.11.0
 

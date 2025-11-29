@@ -18,7 +18,11 @@ import torch
 import torch.nn as nn
 from PIL import Image
 from torchvision import transforms, models
-import timm
+try:
+    import timm
+except Exception:
+    timm = None
+    print("⚠️  Optional dependency 'timm' not installed — continuing without it.")
 
 from flask import Flask, request, jsonify, render_template_string
 
